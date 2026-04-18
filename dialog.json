@@ -1,4 +1,4 @@
-{ 
+{
   "start" : {
     "text" : "Welcome to Lone Travelor CLI this is Text Based Adventure Game With a Intresting Story I HopeYou Will Enjoy it",
     "choices" : [
@@ -12,13 +12,13 @@
       }
     ]
   },
-  
+
   "begin" : {
     "text" : "Dummy Text  ACT 1",
     "choices" : [
       {
         "text" : "Choice 1",
-        "next" : "choicea",
+        "next" : "choice_a",
         "condition" : {
           "has_item" : "key"
         },
@@ -27,8 +27,8 @@
         }
       },
       {
-        "text" : "Choice 2"
-        "next" : "choiceb"
+        "text" : "Choice 2",
+        "next" : "choice_b"
       }
     ]
 }
