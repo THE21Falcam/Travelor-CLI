@@ -1,34 +1,35 @@
 {
-  "start" : {
-    "text" : "Welcome to Lone Travelor CLI this is Text Based Adventure Game With a Intresting Story I HopeYou Will Enjoy it",
-    "choices" : [
+  "start": {
+    "text": "Welcome to Lone Travelor CLI this is Text Based Adventure Game With a Intresting Story I HopeYou Will Enjoy it",
+    "choices": [
       {
-        "text" : "Let's Begin Playing",
-        "next" : "begin"
+        "text": "Let's Begin Playing",
+        "next": "begin"
       },
       {
-        "text" : "ComeBack Later I am Waiting",
-        "next" : "exit"
+        "text": "ComeBack Later I am Waiting",
+        "next": "exit"
       }
     ]
   },
 
-  "begin" : {
-    "text" : "Dummy Text  ACT 1",
-    "choices" : [
+  "begin": {
+    "text": "Dummy Text  ACT 1",
+    "choices": [
       {
-        "text" : "Choice 1",
-        "next" : "choice_a",
-        "condition" : {
-          "has_item" : "key"
+        "text": "Choice 1",
+        "next": "choice_a",
+        "condition": {
+          "has_item": "key"
         },
-        "effect" : {
-          "meet" : true
+        "effect": {
+          "meet": true
         }
       },
       {
-        "text" : "Choice 2",
-        "next" : "choice_b"
+        "text": "Choice 2",
+        "next": "choice_b"
       }
     ]
+  }
 }
